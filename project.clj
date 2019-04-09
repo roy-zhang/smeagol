@@ -19,7 +19,7 @@
                  [markdown-clj "1.0.7" :exclusions [com.keminglabs/cljx]]
                  [noir-exception "0.2.5"]
                  [org.clojars.simon_brooke/internationalisation "1.0.3"]
-                 [org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojure "1.10.0"]
                  [org.clojure/core.memoize "0.7.1"]
                  [org.clojure/data.json "0.2.6"]
                  [org.clojure/tools.logging "0.5.0-alpha.1"]
@@ -41,7 +41,7 @@
             [lein-bower "0.5.1"]
             [lein-codox "0.10.3"]
             [io.sarnowski/lein-docker "1.0.0"]
-            [lein-environ "1.0.0"]
+            ;; [lein-environ "1.0.0"]
             [lein-marginalia "0.7.1" :exclusions [org.clojure/clojure]]
             [lein-ring "0.12.5" :exclusions [org.clojure/clojure]]]
 
