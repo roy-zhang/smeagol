@@ -27,23 +27,23 @@
                  [org.slf4j/log4j-over-slf4j "1.7.25"]
                  [org.slf4j/jul-to-slf4j "1.7.25"]
                  [org.slf4j/jcl-over-slf4j "1.7.25"]
-                 [prismatic/schema "1.1.9"]
-                 [prone "1.1.4"]
-                 [ring/ring-anti-forgery "1.1.0"]
-                 [ring-server "0.4.0"]
-                 [selmer "1.11.0"]]
+                 [prismatic/schema "1.1.10"]
+                 [prone "1.6.1"]
+                 [ring/ring-anti-forgery "1.3.0"]
+                 [ring-server "0.5.0"]
+                 [selmer "1.12.12"]]
 
   :repl-options {:init-ns smeagol.repl}
 
   :jvm-opts ["-server"]
 
-  :plugins [[lein-ancient "0.5.5" :exclusions [org.clojure/clojure org.clojure/data.xml]]
+  :plugins [[lein-ancient "0.6.15" :exclusions [org.clojure/clojure org.clojure/data.xml]]
             [lein-bower "0.5.1"]
             [lein-codox "0.10.3"]
             [io.sarnowski/lein-docker "1.0.0"]
             [lein-environ "1.0.0"]
             [lein-marginalia "0.7.1" :exclusions [org.clojure/clojure]]
-            [lein-ring "0.8.13" :exclusions [org.clojure/clojure]]]
+            [lein-ring "0.12.5" :exclusions [org.clojure/clojure]]]
 
   :bower-dependencies [[simplemde "1.11.2"]
                        ;; [vega-embed "3.0.0-beta.20"] ;; vega-embed currently not loaded from Bower because of
